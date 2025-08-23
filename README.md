@@ -1,12 +1,25 @@
-# React + Vite
+# 🎬 Flixer - Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based movie application that fetches data from a public movie API. Users can browse movies, filter by genre, and manage their watchlist.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse movies using API
 
-## Expanding the ESLint configuration
+- Filter movies by genre
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add/remove movies from watchlist
+
+- Responsive design (works on mobile & desktop)
+
+## Tech Stack
+
+- React (with Hooks + Context API)
+
+- Vite
+
+- Tailwind CSS (if you used it)
+
+- Vercel (deployment)
+
+   Live Demo: [flixer-movie-app.vercel.app](https://flixer-movie-app.vercel.app/)
